@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.content-wrapper {
+    padding-top: 130px;
+}
+.hero {
+    height: 700px;
+    background-image: url(../images/ktg-hero-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content-wrapper {
+    margin: auto 0;
+}
+.social-links {
+    padding: 50px 0;
+    text-align: center
+}
+.social-icons {
+    font-size: 30px;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    outline: 2px solid red;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
